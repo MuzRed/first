@@ -10,6 +10,7 @@ margin: 0 auto;
     display: flex;
 }
 
+
 div[class^="col-"] {
     padding: 0 15px;
 }
