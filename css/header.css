@@ -3,7 +3,8 @@ height: 156px;
 align-items: stretch;
 }
 
-.header> .row {
+.header > .container,
+.header >.container> .row {
     height: 100%;
 }
 
