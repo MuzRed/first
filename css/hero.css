@@ -48,16 +48,21 @@
   font-weight: 300;
   text-decoration: none;
   color: #ffffff;
+  transition: all 0.05s;
 }
 
 .hero__button:hover {
-   background-color: #1b1b1b; 
-   animation: animated_shadow 3s;
-   animation-fill-mode: forwards;
+   color: #ebe9e9;
+   background-color: #252525; 
+   box-shadow: 2px 2px 7px #978a7a;
+   transition: all 0.15s ease-out;
 }
 
-@keyframes animated_shadow {
-from {box-shadow: 3px 3px 15px none;}
-to {box-shadow: 3px 3px 15px black;}
+.hero__button:active {
+background-color: rgb(27, 27, 27);
+box-shadow: 0px 0px 2px rgb(0, 0, 0);
+transition: all 0.15s ease-out;
 }
+
+
 
