@@ -3,23 +3,24 @@
     background-color: #ffe1bd;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .hero__title {
-    
     position: relative;
     font-size: 48px;
-    
-
+    margin-top: 139px;
+   margin-bottom: 56px;
+    line-height : 37px;
 }
 
 .hero__text {
     text-align: center;
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 56px;
+    line-height: 25px;
+    margin: 0px;
 }
 
 .hero__title::after {
@@ -39,6 +40,7 @@
   height: 50px;
   line-height: 50px;
   padding: 0 31px;
+  margin-top: 80px;
   background-color: #000000;
   border-radius: 25px;
   text-align: center;
@@ -51,12 +53,11 @@
 .hero__button:hover {
    background-color: #1b1b1b; 
    animation: animated_shadow 3s;
-  animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
 }
 
 @keyframes animated_shadow {
 from {box-shadow: 3px 3px 15px none;}
 to {box-shadow: 3px 3px 15px black;}
-
 }
 
