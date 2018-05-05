@@ -1,10 +1,87 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 87px 0;
+}
+
 .content__title {
   font-size: 60px;
+  margin-bottom: 100px;
+  margin-top: 0;
   font-weight: 100;
+  line-height: 0.8;
+  text-align: center;
+}
+
+.card {
+  justify-content: space-between;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+.card:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__title {
+  position: relative;
+  font-size: 48px;
+  line-height: 1;
+  text-align: left;
+  font-weight: bold;
+  margin: 0 0 60px 0;
+}
+
+.card__title span {
+  display: block;
+  font-size: 30px;
+  line-height: 1;
+  text-align: left;
+  font-weight: 300;
+  margin: 0;
+}
+
+.card__title::after {
+  content: "";
+  position: absolute;
+  bottom: -29px;
+  left: 0;
+  height: 2px;
+  width: 55px;
+  background-color: #000000;
+}
+
+.card__text {
+  font-size: 18px;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.8;
+  line-height: 1.5;
   letter-spacing: normal;
-  text-align: center;
-  color: #000000;;  
+  text-align: left;
+  color: #656565;
+  margin-top: 28px;
+  margin-bottom: 49px;
 }
+
+.card__button {
+  display: inline-block;
+  padding: 0 38px;
+  border-radius: 25px;
+  border: solid 1px #d8d8d8;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  line-height: 50px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
