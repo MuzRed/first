@@ -12,7 +12,7 @@ margin: 0 auto;
 }
 
 
-div[class^="col-"] {
+div[class*="col-"] {
     padding: 0 15px;
 }
 
