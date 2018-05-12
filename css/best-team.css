@@ -1,0 +1,46 @@
+.best-team {
+    background-color: #ffe1bd;
+}
+
+
+
+.member__avatar {
+    margin: 0 auto;
+    width: 168px;
+    height: 168px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.member__avatar img {
+    width: 100%;
+}
+
+.member {
+   text-align: center;
+
+}
+.member__name {
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.05;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+}
+
+
+.member__name::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 55px;
+    background-color: #000000;
+}
+

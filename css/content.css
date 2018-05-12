@@ -1,18 +1,4 @@
-.content{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 87px 0;
-}
 
-.content__title {
-  font-size: 60px;
-  margin-bottom: 100px;
-  margin-top: 0;
-  font-weight: 100;
-  line-height: 0.8;
-  text-align: center;
-}
 
 .card {
   justify-content: space-between;
@@ -71,17 +57,5 @@
   margin-bottom: 49px;
 }
 
-.card__button {
-  display: inline-block;
-  padding: 0 38px;
-  border-radius: 25px;
-  border: solid 1px #d8d8d8;
-  font-size: 18px;
-  font-weight: 300;
-  text-decoration: none;
-  line-height: 50px;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000000;
-}
+
 
