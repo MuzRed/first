@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/best-team.css">
+    <link rel="stylesheet" href="./css/clients-says.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,700&amp;subset=cyrillic" rel="stylesheet">
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
@@ -167,25 +168,86 @@
                        <p class="member__name"> paul hall </p>
                        <span class="member__job">  art director </span>
                     </div>
-                    <div>
-                        <h3>2</h3>
+                    <div class="member">
+                        <div class="member__avatar">
+                            <img src="http://placehold.it/100x100" alt="">
+                        </div>
+                        <p class="member__name"> joshua<br>spenser </p>
+                        <span class="member__job"> founder </span>
+                    </div>>
+                    <div class="member">
+                        <div class="member__avatar">
+                            <img src="http://placehold.it/100x100" alt="">
+                        </div>
+                        <p class="member__name"> diane lewis </p>
+                        <span class="member__job"> artist, designer </span>
                     </div>
-                    <div>
-                        <h3>3</h3>
+                    <div class="member">
+                        <div class="member__avatar">
+                            <img src="http://placehold.it/100x100" alt="">
+                        </div>
+                        <p class="member__name"> rod stern </p>
+                        <span class="member__job"> artist </span>
                     </div>
-                    <div>
-                        <h3>4</h3>
+                    <div class="member">
+                        <div class="member__avatar">
+                            <img src="http://placehold.it/100x100" alt="">
+                        </div>
+                        <p class="member__name"> samanta<br>hole </p>
+                        <span class="member__job"> PR </span>
                     </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
+                    <div class="member">
+                        <div class="member__avatar">
+                            <img src="http://placehold.it/100x100" alt="">
+                        </div>
+                        <p class="member__name"> david huck </p>
+                        <span class="member__job"> manager </span>
                     </div>
                 </div>
 
             </div>
         </section>
+        <div class="container">
+            <section class="section clients-says">
+                <h2 class="section__title">clients say's</h2>
+                <div class="row">
+                    <div class="col-5 client">
+                        <p class="client__name"> paul hall </p>
+                        <span class="client__job"> art director </span>
+                    </div>
+                    <div class="col-1"> </div>
+                    <div class="col-5 clients__text">
+                       <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                    ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                       </div>   
+                 </div>
+                <div class="clients-says__slider">
+                        
+                            <div class="clients__picture ">
+                                <img src="http://placehold.it/100x100" alt="">
+                            </div>
+                            <div class="clients__picture ">
+                                <img src="http://placehold.it/100x100" alt="">
+                            </div>
+                            <div class="clients__picture ">
+                                <img src="http://placehold.it/100x100" alt="">
+                            </div>
+                            <div class="clients__picture ">
+                                <img src="http://placehold.it/100x100" alt="">
+                             </div>
+                            <div class="clients__picture ">
+                                <img src="http://placehold.it/100x100" alt="">
+                            </div>
+                            <div class="clients__picture ">
+                                <img src="http://placehold.it/100x100" alt="">
+                            </div>
+                            <div class="clients__picture ">
+                                <img src="http://placehold.it/100x100" alt="">
+                            </div>
+                </div>
+
+            </section>
+        </div>
     </main>
 
     <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
@@ -197,10 +259,21 @@
                 infinite: true,
                 slidesToShow: 3,
                 slidesToScroll: 3,
-                dots: true
+                dots: true,
             }
             );
         });
+       
+
+        $(document).ready(function (){
+                $('.clients-says__slider').slick( {
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    dots: true
+                }
+                );
+            });
         </script>
 </body>
 </html>
