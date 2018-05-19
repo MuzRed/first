@@ -43,3 +43,14 @@
     background-color: #000000;
 }
 
+
+.best-team__slider {
+    position: relative;
+}
+
+
+.best-team__slider ul.slick-dots {
+    position: absolute;
+    top: 360px
+}
+

@@ -56,8 +56,18 @@
 }
 
 .clients-says__slider {
+    position: relative;
     margin-top: 78px;
 }
+
+
+
+.clients-says__slider ul.slick-dots {
+    position: absolute;
+    top: 200px;
+    margin-bottom: 100px;
+}
+    
 
 
 
