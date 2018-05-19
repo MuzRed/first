@@ -1,6 +1,6 @@
 .best-team {
     background-color: #ffe1bd;
-    padding-bottom: 87px;
+    padding-bottom: 137px;
 }
 
 .member__avatar {
@@ -44,13 +44,13 @@
 }
 
 
-.best-team__slider {
-    position: relative;
-}
 
 
-.best-team__slider ul.slick-dots {
+
+ul.slick-dots {
     position: absolute;
-    top: 360px
+    bottom: 100px;
+    
+    
 }
 
