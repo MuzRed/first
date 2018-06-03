@@ -53,3 +53,23 @@ display: flex;
 .nav__link:hover {
     color: #4f4f4f;
 }
+
+.aboutus__header {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.aboutus__header span {
+    position: relative;
+    color: #000;
+    font-weight: 400;
+}
+
+.aboutus__header::after {
+  content: "";
+  position: absolute;
+  top: 95px;
+  right: 502px;
+  height: 2px;
+  width: 34px;
+  background-color: #000000;
+}

@@ -18,6 +18,7 @@ $(document).ready(function () {
         dots: true,
         mobileFirst: true,
         speed: 1100
+        
     }
     );
 });

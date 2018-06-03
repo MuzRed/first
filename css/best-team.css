@@ -1,4 +1,4 @@
-.best-team {
+.best-team.section {
     background-color: #ffe1bd;
     padding-bottom: 137px;
 }
@@ -47,7 +47,7 @@
 
 
 
-ul.slick-dots {
+ul.slick-dots  {
     position: absolute;
     bottom: 100px;
     
