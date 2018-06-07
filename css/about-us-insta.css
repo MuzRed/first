@@ -5,14 +5,15 @@
 .insta-gallery__line {
   flex-direction: row;
   justify-content: center;
-  flex-wrap: nowrap;
-  margin-left: 20px;
-  margin-right: 20px;
   padding-bottom: 46px;
 }
 
-.insta-gallery__line img:not(:last-child){
-    margin-right: 20px;
+.insta-gallery__line img{
+    margin-right: 10px;
+}
+
+.insta-gallery__line :nth-child(1){
+    margin-left: 10px;
 }
 
  .insta-gallery__line2 {

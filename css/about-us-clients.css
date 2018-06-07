@@ -13,7 +13,7 @@
 .card__text:nth-child(1)::before {
     content: "";
   position: absolute;
-  bottom: 183px;
+  bottom: 156px;
   left: 10;
   height: 2px;
   width: 55px;
