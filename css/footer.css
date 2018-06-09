@@ -22,3 +22,9 @@
 .text_company, .text_rights {
     text-align: center;
 }
+
+.footer__line {
+    border-top: 1px solid #d8d8d8;
+    padding-top: 46px;
+    margin-top: 0px;
+}
