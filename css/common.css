@@ -4,6 +4,11 @@
   position: relative;
 }
 
+.section_bordered {
+padding-bottom: 140px;
+
+}
+
 .section__title {
   font-size: 60px;
   margin-bottom: 100px;
@@ -53,6 +58,7 @@ transition: all 0.15s ease-out;
     border-color: #ededed;
     box-shadow: 2px 2px 7px #d7d7d7;
     color: #000;
+    cursor: pointer;
 }
 
 .button_invert:active {

@@ -20,20 +20,21 @@
   background-color: #000000;
 }
 
- .card__header  {
+  .card__header  {
  
-margin-left: 70px;
-margin-top: 80px;
+/* margin-left: 70px;
+margin-bottom: 60px; */
 font-size: 40px;
 font-weight: bold;
 line-height: 1.35;
 color: #000;
-}
+} 
+
 
 .card__header::before {
   content: "";
   position: absolute;
-  bottom: 285px;
+  top: 220px;
   left: 10;
   height: 2px;
   width: 56px;
